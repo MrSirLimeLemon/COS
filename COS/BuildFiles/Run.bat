@@ -14,7 +14,7 @@ set FileLoc=%SRC%\COS\BuildFiles\Floppys
 ::Wont work unless your me
 if EXIST "%UCRT%" (
 
-    if "%~1"=="" (::no arg finds bigest floppy#.img
+    if "%~1"=="" (
 
         set "highest=0"
 
